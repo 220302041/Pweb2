@@ -1,32 +1,3 @@
-<!-- <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fungsi</title>
-</head>
-
-<body>
-    <?php
-    function persegi_panjang1($p, $l)
-    {
-        return $p * $l;
-    }
-    function lingkaran1($r)
-    {
-        return 3.14 * $r * $r;
-    }
-    echo "Luas Persegi Panjang = " . persegi_panjang(5, 2) . "</br>";
-    echo "Luas Lingkaran = " . lingkaran(7) . "</br>";
-    ?>
-
-
-</body>
-
-</html> -->
-
-
-<!-- TUGAS FUNCTION -->
 <html lang="en">
 
 <head>
@@ -96,7 +67,7 @@
         echo "Maka luas persegi panjang sama dengan [ $panjang x $lebar ] = $luas_persegi_panjang<br />";
 
         echo "Maka keliling persegi panjang sama dengan [ 2 x ($panjang + $lebar) ] = $keliling_persegi_panjang<br/>";
-
+        
         echo "Maka luas lingkaran sama dengan [ 3.14*$r*$r] = $luas_lingkaran<br />";
     }
     ?>
