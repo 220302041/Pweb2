@@ -8,7 +8,7 @@ $db = new database();
 </head>
 <div class="px-5 mb-4 mt-4">
     <h3>Tambah Data Mahasiswa</h3>
-    <a class="btn btn-primary"href="tampil_mhs.php ?id=<?php echo $x['id']; ?>&aksi=kembali">Kembali</a>
+    <a class="btn btn-primary" href="tampil_mhs.php ?id=<?php echo $x['id']; ?>&aksi=kembali">Kembali</a>
     <form action="proses_mhs.php?aksi=tambah" method="post">
         <table>
 

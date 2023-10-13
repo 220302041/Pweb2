@@ -7,17 +7,18 @@
 </head>
 
 <body>
+
     <?php
     $nilai = $_POST['nilai'];
     $nilai = $nilai . " ";
     if ($nilai > 0) {
-        echo "$nilai adalah Bilangan Positif </br>";
-    } else if ($nilai < 0) {
-        echo "$nilai adalah Bilangan Negatif </br>";
+        echo "$nilai adalah Bilangan Positif ";
+    } elseif ($nilai < 0) {
+        echo "$nilai adalah Bilangan Negatif ";
     } else {
-        echo "$nilai adalah Bilangan Nol </br>";
-        echo "<br>";
+        echo "$nilai adalah Bilangan Nol ";
     }
+
     ?>
     <form method="POST">
 

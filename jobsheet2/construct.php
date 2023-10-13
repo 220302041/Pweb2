@@ -48,4 +48,3 @@ $nama_mahasiswa = new mahasiswa();
 echo $nama_mahasiswa->tampil_nama();
 echo $nama_mahasiswa->tampil_mahasiswa();
 
-// TUGAS DOSEN //

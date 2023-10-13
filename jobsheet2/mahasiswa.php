@@ -8,7 +8,6 @@ class mahasiswa
     var $nama;
     var $alamat;
 
-
     //method untuk menampilkan nim
     function tampil_nim()
     {
@@ -53,14 +52,14 @@ class Dosen
     function tampil_nidn()
     {
         //isi method
-        return "NIDN Saya adalah 220302041 </br></br>";
+        return "NIDN Saya adalah 220302041 </br>";
     }
 
     //method untuk menampilkan alamat
     function tampil_nama()
     {
         //isi method
-        return "Nama Saya adalah Refina Inayatul Putri </br></br>";
+        return "Nama Saya adalah Refina Inayatul Putri </br>";
     }
 
     function tampil_prodi()

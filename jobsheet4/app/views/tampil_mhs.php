@@ -22,7 +22,7 @@ $db = new database;
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="tampil_mhs.php">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="tampil_mhs.php">Mahasiswa</a>
@@ -65,7 +65,8 @@ $db = new database;
         header("refresh:2,url=tampil_mhs.php");
     }
     ?>
-    <div class="px-4 py-4 mb-5">
+
+<div class="px-4 py-4 mb-5">
         <h3>Data Mahasiswa</h3>
         <a class="btn btn-outline-primary mb-4 mt-4" href="input_mhs.php">Tambah Mahasiswa</a>
         <br>
